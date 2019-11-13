@@ -82,3 +82,6 @@ while Reponse_Client :
         reponse = input("Voulez-vous continuer avec un autre client? oui/non\n")
         if reponse == "oui" :
             continue
+   else:
+            print("Au revoir", nom, idcode)
+            Reponse_Client = False
